@@ -7,3 +7,5 @@ create table mensagem
     primary key (codigo),
     foreign key (codigo) references topico(codigo)
 );
+
+-- teste
