@@ -1,0 +1,5 @@
+Configurar Banco
+
+1. Criar banco de nome "PIV" (Projeto Integrador V), sem aspas. 
+
+2. Importar arquivo ".sql"  para o banco.
