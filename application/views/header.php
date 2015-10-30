@@ -1,6 +1,3 @@
-<nav>
-  <a href="#">HTML</a> |
-  <a href="#">CSS</a> |
-  <a href="#">JavaScript</a> |
-  <a href="#">jQuery</a>
-</nav>
+<div>
+    <img src=""/>
+</div>

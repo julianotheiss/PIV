@@ -1,3 +1,32 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+/* Menu Lateral */
 h1 {
     color: red;
+}
+
+.menuLateral{
+    list-style:none;
+    border:1px solid #c0c0c0;
+    float:right;
+}
+
+.menuLateral li{
+    position:relative;
+    border-right:1px solid #c0c0c0;
+}
+
+.menuLateral li a{
+    color:#333;
+    text-decoration:none;
+    padding:5px 10px;
+    display:block;
+}
+
+.menuLateral li a:hover{
+    background:#333;
+    color:#fff;
 }
