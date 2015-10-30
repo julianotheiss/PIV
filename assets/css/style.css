@@ -1,17 +1,21 @@
 * {
     margin:0;
     padding:0;
+    font-family: tahoma;
+    color: #331F00;
+}
+
+html {
+    background: #995C00;
 }
 
 /* Menu Lateral */
-h1 {
-    color: red;
-}
 
 .menuLateral{
     list-style:none;
     border:1px solid #c0c0c0;
     float:right;
+    margin-right: 250px;
 }
 
 .menuLateral li{
@@ -20,7 +24,6 @@ h1 {
 }
 
 .menuLateral li a{
-    color:#333;
     text-decoration:none;
     padding:5px 10px;
     display:block;
@@ -29,4 +32,47 @@ h1 {
 .menuLateral li a:hover{
     background:#333;
     color:#fff;
+}
+
+/* Menu Horizontal */
+.menuHorizontal{
+    background-color: #FFC266;
+    text-align: center;
+    padding: 10px;
+}
+
+.menuHorizontal a{
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menuHorizontal a:hover{
+    background: #331F00;
+    color: #FFC266;
+}
+
+h1:hover{
+    backgrond-color: #bbb;
+}
+
+.menuHorizontal span{
+    font-size:30px;
+}
+
+/* Cabeçalho */
+
+.header {
+    background-color: #FFEBCC;
+    width: 100%;
+    height: 200px;
+}
+
+/* Forum inicio */
+
+.forum{
+    background-color: #FFEBCC;
+    margin-left: 250px;
+    height: 2000px;
 }

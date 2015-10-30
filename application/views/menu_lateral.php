@@ -1,3 +1,4 @@
+<div class="radioPlayer"></div>
 <ul class="menuLateral">
     <li><a href="#">Trocar contraste</a></li>
     <li><a href="#">Aumentar fonte</a></li>
