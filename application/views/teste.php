@@ -1,6 +1,4 @@
-<?php
-
-echo "<table>
+<table>
             <tr>
                 <td>Código</td>
                 <td>Título</td>
@@ -8,7 +6,8 @@ echo "<table>
                 <td>Hora de Cadastro</td>
                 <td>Popularidade</td>
                 <td>Usuário</td>
-            </tr>";
+            </tr>
+<?php
 foreach($topico->result() as $top){
     echo "<tr>
             <td>$top->codigo</td>
@@ -19,9 +18,12 @@ foreach($topico->result() as $top){
             <td>$top->codUsuario</td>
         </tr>";
 }
-echo"</table>";
+?>
+</table>
 
-/*
+<a href="<?php echo base_url(); ?>adicionar">Teste</a>
+
+<!--
 $query = $this->db->query("select * From usuario");
 
 echo "<table>
@@ -40,4 +42,4 @@ foreach ($query->result() as $row)
    echo $row->name;
    echo $row->body;
 }
-*/
+--> a
